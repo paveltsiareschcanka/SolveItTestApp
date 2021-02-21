@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D28303B225E2E88D003B2CA3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D28303B425E2E88D003B2CA3 /* Localizable.strings */; };
+		D2D1C24325E2EF03008D91D6 /* LessonsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D1C24225E2EF03008D91D6 /* LessonsListPresenter.swift */; };
 		D2D85A8925E29B4D008558E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85A8825E29B4D008558E1 /* AppDelegate.swift */; };
 		D2D85A8B25E29B4D008558E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85A8A25E29B4D008558E1 /* SceneDelegate.swift */; };
 		D2D85A9225E29B4F008558E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D85A9125E29B4F008558E1 /* Assets.xcassets */; };
@@ -17,7 +18,6 @@
 		D2D85ACF25E2AEE0008558E1 /* LessonsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85ACD25E2AEE0008558E1 /* LessonsListView.swift */; };
 		D2D85AD025E2AEE0008558E1 /* LessonsListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D85ACE25E2AEE0008558E1 /* LessonsListView.xib */; };
 		D2D85AD425E2B14D008558E1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85AD325E2B14D008558E1 /* UIViewController.swift */; };
-		D2D85AD725E2B1F5008558E1 /* LessonsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85AD625E2B1F5008558E1 /* LessonsListPresenter.swift */; };
 		D2D85ADD25E2B726008558E1 /* LessonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85ADB25E2B726008558E1 /* LessonCell.swift */; };
 		D2D85ADE25E2B726008558E1 /* LessonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D85ADC25E2B726008558E1 /* LessonCell.xib */; };
 		D2D85AE225E2BD5C008558E1 /* TitlesConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85AE125E2BD5C008558E1 /* TitlesConverter.swift */; };
@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		D28303B325E2E88D003B2CA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D2D1C24225E2EF03008D91D6 /* LessonsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsListPresenter.swift; sourceTree = "<group>"; };
 		D2D85A8525E29B4D008558E1 /* SolveIt.Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolveIt.Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D85A8825E29B4D008558E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2D85A8A25E29B4D008558E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		D2D85ACD25E2AEE0008558E1 /* LessonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsListView.swift; sourceTree = "<group>"; };
 		D2D85ACE25E2AEE0008558E1 /* LessonsListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonsListView.xib; sourceTree = "<group>"; };
 		D2D85AD325E2B14D008558E1 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		D2D85AD625E2B1F5008558E1 /* LessonsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LessonsListPresenter.swift; path = ../../../../../LessonsListPresenter.swift; sourceTree = "<group>"; };
 		D2D85ADB25E2B726008558E1 /* LessonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCell.swift; sourceTree = "<group>"; };
 		D2D85ADC25E2B726008558E1 /* LessonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonCell.xib; sourceTree = "<group>"; };
 		D2D85AE125E2BD5C008558E1 /* TitlesConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesConverter.swift; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				D2D85ADA25E2B70A008558E1 /* Components */,
-				D2D85AD625E2B1F5008558E1 /* LessonsListPresenter.swift */,
+				D2D1C24225E2EF03008D91D6 /* LessonsListPresenter.swift */,
 				D2D85ACD25E2AEE0008558E1 /* LessonsListView.swift */,
 				D2D85ACE25E2AEE0008558E1 /* LessonsListView.xib */,
 			);
@@ -239,8 +239,8 @@
 			files = (
 				D2D85ACF25E2AEE0008558E1 /* LessonsListView.swift in Sources */,
 				D2D85ADD25E2B726008558E1 /* LessonCell.swift in Sources */,
+				D2D1C24325E2EF03008D91D6 /* LessonsListPresenter.swift in Sources */,
 				D2D85A8925E29B4D008558E1 /* AppDelegate.swift in Sources */,
-				D2D85AD725E2B1F5008558E1 /* LessonsListPresenter.swift in Sources */,
 				D2D85AE625E2C47E008558E1 /* UIColor.swift in Sources */,
 				D2D85AA525E29F84008558E1 /* DataManager.swift in Sources */,
 				D2D85AE925E2D271008558E1 /* UserDefaults.swift in Sources */,

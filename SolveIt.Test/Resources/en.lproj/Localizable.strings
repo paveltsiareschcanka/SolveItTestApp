@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  SolveIt.Test
+
+  Created by Pavel Tsiareschcanka on 21.02.21.
+  
+*/
+
+
+"LessonsListVC.header.title" = "My Classroom";
+"LessonsListVC.search.placeholder" = "Search";
+
+"TitlesConverter.timeTitle.today" = "Today";
+"TitlesConverter.timeTitle.lastUpdate" = "Last update:";
+
+"TitlesConverter.status.inProgress" = "In Progress";
+"TitlesConverter.status.notStarted" = "Start";
+"TitlesConverter.status.completed" = "Completed";

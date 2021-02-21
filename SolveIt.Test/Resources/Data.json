@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "physics",
+    "status": "inProgress",
+    "name": "Physics Class",
+    "updateAt": 1579619572
+  },
+  {
+    "id": 2,
+    "type": "chemistry",
+    "status": "inProgress",
+    "name": "Chemistry Class",
+    "updateAt": 1603120372
+  },
+  {
+    "id": 3,
+    "type": "science",
+    "status": "inProgress",
+    "name": "Science Class",
+    "updateAt": 1611933172
+  },
+  {
+    "id": 4,
+    "type": "english",
+    "status": "completed",
+    "name": "English Class",
+    "updateAt": 1611933172
+  },
+  {
+    "id": 5,
+    "type": "math",
+    "status": "notStarted",
+    "name": "Math",
+    "updateAt": 1584889972
+  }
+]

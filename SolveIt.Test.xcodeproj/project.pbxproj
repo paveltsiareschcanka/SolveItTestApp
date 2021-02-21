@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D28303B225E2E88D003B2CA3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D28303B425E2E88D003B2CA3 /* Localizable.strings */; };
 		D2D85A8925E29B4D008558E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85A8825E29B4D008558E1 /* AppDelegate.swift */; };
 		D2D85A8B25E29B4D008558E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85A8A25E29B4D008558E1 /* SceneDelegate.swift */; };
-		D2D85A8D25E29B4D008558E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85A8C25E29B4D008558E1 /* ViewController.swift */; };
-		D2D85A9025E29B4D008558E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D85A8E25E29B4D008558E1 /* Main.storyboard */; };
 		D2D85A9225E29B4F008558E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D85A9125E29B4F008558E1 /* Assets.xcassets */; };
 		D2D85A9525E29B4F008558E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D85A9325E29B4F008558E1 /* LaunchScreen.storyboard */; };
+		D2D85AA525E29F84008558E1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85AA425E29F83008558E1 /* DataManager.swift */; };
+		D2D85AAC25E2A296008558E1 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = D2D85AAB25E2A296008558E1 /* Data.json */; };
+		D2D85ACF25E2AEE0008558E1 /* LessonsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85ACD25E2AEE0008558E1 /* LessonsListView.swift */; };
+		D2D85AD025E2AEE0008558E1 /* LessonsListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D85ACE25E2AEE0008558E1 /* LessonsListView.xib */; };
+		D2D85AD425E2B14D008558E1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85AD325E2B14D008558E1 /* UIViewController.swift */; };
+		D2D85AD725E2B1F5008558E1 /* LessonsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85AD625E2B1F5008558E1 /* LessonsListPresenter.swift */; };
+		D2D85ADD25E2B726008558E1 /* LessonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85ADB25E2B726008558E1 /* LessonCell.swift */; };
+		D2D85ADE25E2B726008558E1 /* LessonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D85ADC25E2B726008558E1 /* LessonCell.xib */; };
+		D2D85AE225E2BD5C008558E1 /* TitlesConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85AE125E2BD5C008558E1 /* TitlesConverter.swift */; };
+		D2D85AE625E2C47E008558E1 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85AE525E2C47E008558E1 /* UIColor.swift */; };
+		D2D85AE925E2D271008558E1 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85AE825E2D271008558E1 /* UserDefaults.swift */; };
+		D2D85AED25E2E09A008558E1 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D85AEC25E2E09A008558E1 /* Lesson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D28303B325E2E88D003B2CA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D2D85A8525E29B4D008558E1 /* SolveIt.Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolveIt.Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D85A8825E29B4D008558E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2D85A8A25E29B4D008558E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D2D85A8C25E29B4D008558E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2D85A8F25E29B4D008558E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2D85A9125E29B4F008558E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2D85A9425E29B4F008558E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2D85A9625E29B4F008558E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D85AA425E29F83008558E1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D2D85AAB25E2A296008558E1 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		D2D85ACD25E2AEE0008558E1 /* LessonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsListView.swift; sourceTree = "<group>"; };
+		D2D85ACE25E2AEE0008558E1 /* LessonsListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonsListView.xib; sourceTree = "<group>"; };
+		D2D85AD325E2B14D008558E1 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D2D85AD625E2B1F5008558E1 /* LessonsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LessonsListPresenter.swift; path = ../../../../../LessonsListPresenter.swift; sourceTree = "<group>"; };
+		D2D85ADB25E2B726008558E1 /* LessonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCell.swift; sourceTree = "<group>"; };
+		D2D85ADC25E2B726008558E1 /* LessonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonCell.xib; sourceTree = "<group>"; };
+		D2D85AE125E2BD5C008558E1 /* TitlesConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesConverter.swift; sourceTree = "<group>"; };
+		D2D85AE525E2C47E008558E1 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D2D85AE825E2D271008558E1 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		D2D85AEC25E2E09A008558E1 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +80,88 @@
 			children = (
 				D2D85A8825E29B4D008558E1 /* AppDelegate.swift */,
 				D2D85A8A25E29B4D008558E1 /* SceneDelegate.swift */,
-				D2D85A8C25E29B4D008558E1 /* ViewController.swift */,
-				D2D85A8E25E29B4D008558E1 /* Main.storyboard */,
-				D2D85A9125E29B4F008558E1 /* Assets.xcassets */,
-				D2D85A9325E29B4F008558E1 /* LaunchScreen.storyboard */,
+				D2D85AA225E29EF0008558E1 /* LessonsList */,
+				D2D85AA325E29F74008558E1 /* Managers */,
+				D2D85AEB25E2E08D008558E1 /* Models */,
+				D2D85AE025E2BCF8008558E1 /* Helpers */,
+				D2D85AD225E2B13A008558E1 /* Extensions */,
+				D2D85A9D25E29C68008558E1 /* Resources */,
+				D2D85A9F25E29CC6008558E1 /* LaunchScreen */,
 				D2D85A9625E29B4F008558E1 /* Info.plist */,
 			);
 			path = SolveIt.Test;
+			sourceTree = "<group>";
+		};
+		D2D85A9D25E29C68008558E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2D85AAB25E2A296008558E1 /* Data.json */,
+				D2D85A9125E29B4F008558E1 /* Assets.xcassets */,
+				D28303B425E2E88D003B2CA3 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D2D85A9F25E29CC6008558E1 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D2D85A9325E29B4F008558E1 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		D2D85AA225E29EF0008558E1 /* LessonsList */ = {
+			isa = PBXGroup;
+			children = (
+				D2D85ADA25E2B70A008558E1 /* Components */,
+				D2D85AD625E2B1F5008558E1 /* LessonsListPresenter.swift */,
+				D2D85ACD25E2AEE0008558E1 /* LessonsListView.swift */,
+				D2D85ACE25E2AEE0008558E1 /* LessonsListView.xib */,
+			);
+			path = LessonsList;
+			sourceTree = "<group>";
+		};
+		D2D85AA325E29F74008558E1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D2D85AA425E29F83008558E1 /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D2D85AD225E2B13A008558E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D2D85AD325E2B14D008558E1 /* UIViewController.swift */,
+				D2D85AE525E2C47E008558E1 /* UIColor.swift */,
+				D2D85AE825E2D271008558E1 /* UserDefaults.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D2D85ADA25E2B70A008558E1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D2D85ADB25E2B726008558E1 /* LessonCell.swift */,
+				D2D85ADC25E2B726008558E1 /* LessonCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D2D85AE025E2BCF8008558E1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D2D85AE125E2BD5C008558E1 /* TitlesConverter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D2D85AEB25E2E08D008558E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2D85AEC25E2E09A008558E1 /* Lesson.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +221,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D85AD025E2AEE0008558E1 /* LessonsListView.xib in Resources */,
+				D28303B225E2E88D003B2CA3 /* Localizable.strings in Resources */,
+				D2D85ADE25E2B726008558E1 /* LessonCell.xib in Resources */,
 				D2D85A9525E29B4F008558E1 /* LaunchScreen.storyboard in Resources */,
 				D2D85A9225E29B4F008558E1 /* Assets.xcassets in Resources */,
-				D2D85A9025E29B4D008558E1 /* Main.storyboard in Resources */,
+				D2D85AAC25E2A296008558E1 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,21 +237,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D85A8D25E29B4D008558E1 /* ViewController.swift in Sources */,
+				D2D85ACF25E2AEE0008558E1 /* LessonsListView.swift in Sources */,
+				D2D85ADD25E2B726008558E1 /* LessonCell.swift in Sources */,
 				D2D85A8925E29B4D008558E1 /* AppDelegate.swift in Sources */,
+				D2D85AD725E2B1F5008558E1 /* LessonsListPresenter.swift in Sources */,
+				D2D85AE625E2C47E008558E1 /* UIColor.swift in Sources */,
+				D2D85AA525E29F84008558E1 /* DataManager.swift in Sources */,
+				D2D85AE925E2D271008558E1 /* UserDefaults.swift in Sources */,
+				D2D85AE225E2BD5C008558E1 /* TitlesConverter.swift in Sources */,
 				D2D85A8B25E29B4D008558E1 /* SceneDelegate.swift in Sources */,
+				D2D85AD425E2B14D008558E1 /* UIViewController.swift in Sources */,
+				D2D85AED25E2E09A008558E1 /* Lesson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D2D85A8E25E29B4D008558E1 /* Main.storyboard */ = {
+		D28303B425E2E88D003B2CA3 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2D85A8F25E29B4D008558E1 /* Base */,
+				D28303B325E2E88D003B2CA3 /* en */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		D2D85A9325E29B4F008558E1 /* LaunchScreen.storyboard */ = {
@@ -289,6 +397,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KBSCJPG587;
 				INFOPLIST_FILE = SolveIt.Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tsiareschcanka.SolveIt-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KBSCJPG587;
 				INFOPLIST_FILE = SolveIt.Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tsiareschcanka.SolveIt-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
